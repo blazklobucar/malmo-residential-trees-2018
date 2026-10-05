@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite them as below."
+title: "Trees on residential land in Malmö, Sweden: 2018 inventory of single-household properties and multi-dwelling plots"
+type: dataset
+authors:
+  - family-names: Klobucar
+    given-names: Blaz
+    affiliation: "Swedish University of Agricultural Sciences (SLU), Department of Landscape Architecture, Planning and Management"
+version: "1.0.0"
+date-released: 2026-10-05
+license: CC-BY-4.0
+keywords:
+  - urban forestry
+  - residential trees
+  - private trees
+  - tree inventory
+  - i-Tree Eco
+  - Malmö
+references:
+  - type: article
+    authors:
+      - family-names: Klobucar
+        given-names: Blaz
+      - family-names: Östberg
+        given-names: Johan
+      - family-names: Wiström
+        given-names: Björn
+      - family-names: Jansson
+        given-names: Märit
+    title: "Residential urban trees – socio-ecological factors affecting tree and shrub abundance in the city of Malmö, Sweden"
+    journal: "Urban Forestry & Urban Greening"
+    volume: 62
+    year: 2021
+    doi: 10.1016/j.ufug.2021.127118
+  - type: article
+    authors:
+      - family-names: Klobucar
+        given-names: Blaz
+      - family-names: Sang
+        given-names: Neil
+      - family-names: Randrup
+        given-names: Thomas B.
+    title: "Comparing ground and remotely sensed measurements of urban tree canopy in private residential property"
+    journal: "Trees, Forests and People"
+    volume: 5
+    year: 2021
+    doi: 10.1016/j.tfp.2021.100114

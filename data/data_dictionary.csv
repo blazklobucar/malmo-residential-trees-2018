@@ -1,0 +1,39 @@
+table,variable,type,unit,description
+plots,plot_id,string,,Pseudonymous sample point ID (random; not related to original field numbering)
+plots,housing_type,string,,single_household (småhusenhet) or multi_household (multi-dwelling / housing association)
+plots,status,string,,inventoried | declined_or_no_response | not_inventoried | excluded_not_residential
+plots,plot_type,string,,whole_property = complete inventory of all trees on the lot; circular_100m2 = i-Tree Eco circular plot of 100 m2 (radius 5.64 m)
+plots,postal_area,string,,First three digits of the Swedish postcode (e.g. 216xx); areas with fewer than 5 sample points pooled as 'other'
+plots,plot_area_m2,number,m2,Area inventoried: 100 for circular plots; lot area rounded to nearest 50 m2 for whole-property inventories
+plots,property_area_class,string,m2,Area class of the property the sample point fell on (from the 2017 property register)
+plots,field_month,string,YYYY-MM,Month of field inventory
+plots,n_trees,integer,count,Number of trees recorded (0 = inventoried but no trees)
+plots,plot_tree_cover_pct,number,%,Visually estimated tree canopy cover over the plot (circular plots only)
+plots,plot_pct_measured,number,%,Share of the circular plot that could be accessed and measured
+plots,survey_returned,boolean,,Whether the owner returned the homeowner survey (single-household inventoried properties only)
+trees,tree_id,string,,Tree ID (plot_id + running number)
+trees,plot_id,string,,Link to plots
+trees,housing_type,string,,As in plots
+trees,species_reported,string,,Taxon as recorded in the field incl. cultivar (single-household only; spelling cleaned)
+trees,taxon,string,,Species-level name (genus + species; 'Genus sp.' when only genus or cultivar known)
+trees,genus,string,,Genus
+trees,itree_code,string,,Species code used in i-Tree Eco
+trees,n_stems,integer,count,Number of stems measured at breast height (max 5)
+trees,dbh_eq_cm,number,cm,Diameter at 1.37 m; for multi-stem trees the equivalent single-stem diameter sqrt(sum(dbh_i^2))
+trees,height_m,number,m,Total tree height (multi-household plots only; not measured on single-household properties)
+trees,crown_base_height_m,number,m,Height to live crown base (multi-household only)
+trees,crown_width_1_m,number,m,Crown width in first direction (multi-household only)
+trees,crown_width_2_m,number,m,Crown width perpendicular to first (multi-household only)
+trees,crown_light_exposure,integer,0-5,Number of crown sides receiving light (i-Tree Eco protocol; multi-household only)
+trees,crown_missing_pct,number,%,Percent of crown volume missing (multi-household only)
+trees,crown_dieback_pct,number,%,Crown dieback midpoint of i-Tree condition class (multi-household only)
+trees,street_tree,boolean,,Tree classed as street tree in i-Tree (multi-household only)
+trees,distance_from_centre_m,number,m,Distance from plot centre (multi-household only)
+trees,direction_from_centre_deg,number,degrees,Bearing from plot centre (multi-household only)
+stems,tree_id,string,,Link to trees
+stems,stem_no,integer,,Stem number
+stems,dbh_cm,number,cm,Stem diameter at 1.37 m
+species_lookup,itree_code,string,,i-Tree Eco species code
+species_lookup,taxon,string,,Interpreted taxon
+species_lookup,lookup_source,string,,How the code was resolved
+species_lookup,verify,boolean,,TRUE = interpretation not confirmed against the i-Tree species list

@@ -1,0 +1,10 @@
+# Raw field data and anything with personal information stay off the repository
+raw/
+output/
+*.ieco
+*.iEco
+*.xlsx
+*.docx
+.Rhistory
+.RData
+.Rproj.user/

@@ -1,0 +1,17 @@
+table,id,issue,action
+trees,RUF130_T006,Inventory name 'Prunus domestica' entered in i-Tree as MASO (Magnolia),Inventory name used; i-Tree code was wrong
+trees,RUF125_T001,Inventory name 'Cupressus lawsoniana' entered in i-Tree as CHLA2 (Chamaecyparis),Inventory name used; i-Tree code was wrong
+trees,RUF056_T001,Inventory name 'Cupressus lawsoniana' entered in i-Tree as CHLA2 (Chamaecyparis),Inventory name used; i-Tree code was wrong
+plots,RUF024,Inventory date '22/1/2018' outside the Sep-Nov 2018 field season (likely typo),field date set to NA
+plots,RUF104,An empty 100 m2 plot recorded the same day as this single-household lot inventory had been filed under the multi-dwelling stratum,Duplicate plot record removed; lot inventory kept
+itree_model,all single-household trees,"Single-household height, crown base, crown width, crown light exposure, condition and plot tree cover (28%) in the i-Tree source file are placeholder/default values, not measurements",Set to NA in public tree table; state in report
+plots,RUF148,Multi-household plot with tree cover > 0 but no tree stems inside plot,Valid (overhanging canopy); no action
+plots,RUF095,Multi-household plot with tree cover > 0 but no tree stems inside plot,Valid (overhanging canopy); no action
+plots,RUF029,Multi-household plot with tree cover > 0 but no tree stems inside plot,Valid (overhanging canopy); no action
+plots,RUF145,Multi-household plot with tree cover > 0 but no tree stems inside plot,Valid (overhanging canopy); no action
+plots,RUF196,Multi-household plot with tree cover > 0 but no tree stems inside plot,Valid (overhanging canopy); no action
+plots,RUF035,Multi-household plot with tree cover > 0 but no tree stems inside plot,Valid (overhanging canopy); no action
+plots,RUF186,Multi-household plot with tree cover > 0 but no tree stems inside plot,Valid (overhanging canopy); no action
+plots,RUF003,Multi-household plot with tree cover > 0 but no tree stems inside plot,Valid (overhanging canopy); no action
+plots,RUF050,Multi-household plot with tree cover > 0 but no tree stems inside plot,Valid (overhanging canopy); no action
+plots,RUF205,Multi-household plot with tree cover > 0 but no tree stems inside plot,Valid (overhanging canopy); no action
